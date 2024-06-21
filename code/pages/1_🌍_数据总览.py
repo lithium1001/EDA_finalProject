@@ -82,11 +82,6 @@ st.markdown('''
 
 3. **房源季节使用率**：将每个房源每日是否可用的状态按照季度汇总，转换为了每个季度的使用率。
 ''')
-st.divider()
-st.markdown('## 样本质量')
-st.write("各数值列方差：")
-# 计算每列的方差
-variances = df_numeric.var()
-st.write(variances.to_frame().T)
+
 st.divider()
 st.markdown('作者：同济大学 信息管理与信息系统专业 李佳佳')
